@@ -2,8 +2,8 @@ require "./user.rb"
 class Player < User
   attr_accessor :lives
 
-  def initialize(lives)
-    super
+  def initialize(name, lives)
+    super(name)
     @lives=lives
   end
 
